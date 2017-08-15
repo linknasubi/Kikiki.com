@@ -1,0 +1,150 @@
+---No seletor de id é necessário que não haja espaço seprando as letras.---
+
+<p id= "Id"> Alguma coisa </p>
+
+
+===================================
+
+
+---É possível alterar as dimensões da imagem com o seguinte comando.---
+<img src="arquivo.arquivo" alt="Descrição" height="valor desejado" width="valor desejado">
+
+
+===================================
+
+Dicas: Dimensões de imagem
+Tamanho pequeno: 150x150
+Tamanho médio: 300x300
+Tamanho grande: 1024x1024
+
+===================================
+
+--------! Informação importante !--------
+Dentro do espaço e dimensões de uma imagem nem sempre ocorre uma boa posição estética, na maioria das vezes
+utilizando apenas o código html as posições ficam em vertical, entretanto com esse comando é possível fazer
+com que esse espaço alocado para a imagem seja modificado e "moldado" de forma mais intuitiva, basta utilizar
+o seguinte código:
+
+elemento{
+
+float: right;
+margin: 10 px 10px 10px 10px;
+
+}
+
+===================================
+
+--Para a criação de um site é necessário designar o mapa de cada elemento dentro do site antes de tudo, logo
+as informações a seguir surgirão para o melhor design e mapeamento do site:
+
+<body>
+ <header>
+   <!-- Conteúdo do cabeçalho -->
+ </header>
+ <section id="main">
+   <!--Conteúdo principal -->
+ </section>
+ 
+ <section id"Destaques">
+   <!--Painéis com destaques -->
+   
+ </section>
+ 
+ <footer>
+   <!-- Conteúdo do rodapé -->
+ </footer>
+</body>
+	 
+===================================
+
+-Assim como é possível criar id também é possível criar classes, que funcionam de forma semelhante ao id, mas 
+que por sua vez pode incluir mais de um elemento dentro de suas classes, enquanto o id serve apenas para o 
+elemento respectivo. É como se o id fosse sua digital e a classe o sobrenome de sua família. Para aplicar
+uma classe basta utilizar os seguintes comandos.
+
+<p class="Nomedaclasse">
+
+===================================
+
+---!Outro ponto extremamente importante é o conhecimento de dois tipos de marcações de texto, sendo eles:
+Blocos e linhas, enquanto os blocos ocupam todo aquele parágrafo e podem ir além dos limites da página, as 
+linhas ocupam apenas o espaço necessário e nada além disso, sendo as denominações corretas delas "block" e 
+"inline" respectivamente, e para utilizá-las basta aplicar dentro do style, da seguinte forma:
+
+style{
+
+display: inline;
+
+}
+
+===================================
+
+Outra curiosidade interessante é que dentro de listas, para não ter que empilhá-las verticalmente é possível
+alinhá-las horizontalmente, mas é necessário usar o "inline" tanto nas "ul" quanto nas "li" desejadas.
+
+==================================
+
+Existem 4 valores que são extremamente importantes para o posicionamento dos elementos na página, sendo eles:
+static, relative, absolute e fixed.
+
+===================================
+
+static: O valor que define uma posição estática para todos elementos, o documento permanecerá sempre
+em seu local orignal no documento, e caso seja aplicado quaisquer valores ao elemento, eles não serão 
+respeitados.
+
+===================================
+
+relative: Este valor é útil para realocar um elemento em relação à sua coordenada anterior, sendo muito útil
+para modificações rápidas.
+
+#elemento{
+
+position: relative;
+
+top: 10px;
+right: 10px;
+left: 10px;
+bottom: 10px;
+}
+
+====================================
+
+
+absolute: ? Não entendi
+
+
+====================================
+
+fixed: Este valor é utilizado para manter sempre o elemento desejado na parte visível da página, portanto que
+mesmo que haja a rolagem para baixo o elemento continuará a vista, muito usado para recado e mensagens 
+importantes.
+
+-É obrigatório uma configuração de posicionamento de left, right, top e bottom.
+
+===================================
+
+É possível utilizar size no background para modificar o tamanho de uma determinada imagem ,basta 
+utilizar o seguinte comando:
+
+elemento{
+
+background-size: 80px 60px;
+
+}
+
+===================================
+
+---Dentro do html existe uma tag utilizada para capturar os dados do usuário e submetê-los a algum serviço
+do site, sendo essa tag <form>.
+   Para os dados serem repassados para o form, basta utilizar a tag <input>, que tem dupla finalidade
+que pode ser receber os dados digitados ou submeter um formulário.
+   É por meio da propriedade "type" que definimos essa finalidade.
+    
+
+
+
+
+
+
+

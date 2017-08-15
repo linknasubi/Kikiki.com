@@ -1,0 +1,19 @@
+Toda vez que é utilizado o comando de "width: x px;" o elemento selecionado é centralizado. 
+
+PROBLEMA RESOLVIDO: Basta utilizar o comando "left-width: número px;" ao invés de apenas width.
+
+===========================================================================================================
+
+O background color vai até a metade do header.
+
+PROBLEMA RESOLVIDO: é necessário estabeler o "position: fixed;" no elemento body, dessa forma:
+
+body{
+      position: fixed;
+
+}
+
+==========================================================================================================
+RESOLUÇÃO DO PROBLEMA PRINCIPAL: UTILIZAR TANTO LEF E RIGHT DESESTABILIZANDO AS MARGENS.
+PROBLEMA RESOLVIDO: Deve-se utilizar padding ao invés de position:relative.
+=======================================================================================================
